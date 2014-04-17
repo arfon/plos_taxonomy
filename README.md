@@ -16,4 +16,4 @@ Assuming you have a relatively modern Ruby environment (> 1.8.7) then:
 
 1. `bundle install`
 2. `ruby plos_taxonomy_parser.rb`
-3. Take a look at `plos_taxonomy_#{timestamp}.json`
+3. Take a look at `plos-taxonomy-#{timestamp}.json`
