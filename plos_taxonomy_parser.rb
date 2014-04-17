@@ -28,4 +28,4 @@ page.css('h2').each do |subject_area|
   end
 end
 
-File.open('plos_taxonomy.json', 'w') {|f| f.write(JSON.pretty_generate(output)) }
+File.open("plos-taxonomy-#{Time.now.strftime("%d-%m-%Y")}.json", "w") {|f| f.write(JSON.pretty_generate(output)) }
